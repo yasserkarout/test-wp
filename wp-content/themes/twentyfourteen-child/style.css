@@ -1,0 +1,39 @@
+/*
+Theme Name: Twenty Fourteen Child
+Template: twentyfourteen
+
+*/
+.home-link{
+	font-weight: bold;
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	text-decoration: none;
+	color: black;
+}
+#image{
+	width:100px;
+	height: 100px;
+	overflow: scroll;
+
+}
+#navbar li {
+	display: inline;
+
+}
+#navbar{
+	width: 200px;
+	margin: 0 auto;
+
+
+}
+
+
+#secondary{
+	display: none;
+}
+.site-info{
+	font-size: small;
+	font-style: italic;
+	text-align: center;
+}
+
