@@ -18,7 +18,39 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
-			<h1>Weclome to WordPress site</h1>
+			<?php
+			echo '<h1>'.get_the_title().'</h1>';
+			// The Query
+			$the_query = new WP_Query('author=yasserk');
+
+			// The Loop
+			if ( $the_query->have_posts() ) {
+				echo '<ul>';
+				while ( $the_query->have_posts() ) {
+					$the_query->the_post();
+					echo '<li>' . get_the_title() . '</li>';
+					
+
+				}
+				echo '</ul>';
+			} else {
+				// no posts found
+			}
+			/* Restore original Post Data */
+			wp_reset_postdata(); ?>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
+			<h1>ddasfs</h1>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 	<?php get_sidebar( 'content' ); ?>

@@ -17,7 +17,7 @@
 			<?php get_sidebar( 'footer' ); ?>
 
 			<div class="site-info">
-				<p>Powered by <a href="www.wordpress.org">Wordpress Inc.</a></p>
+				<p>Powered by <a href="http://www.wordpress.org">Wordpress Inc.</a></p>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
